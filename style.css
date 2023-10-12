@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "DM Sans";
+  margin: 0;
+  min-height: 100vh;
+  background-color: #2f1893;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.disbaled {
+  color: #b0b0b0;
+}
+nav {
+  overflow: hidden;
+  /* background-color: red; */
+}
+nav .logo {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 14px 16px;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+}
+li a {
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+li a.disbaled:hover {
+  background-color: transparent;
+  pointer-events: none;
+}
+li a:hover {
+  background-color: #e93a7d;
+}
+section {
+  margin-top: 2rem;
+}
+.row {
+  display: flex;
+}
+.col {
+  flex: 50%;
+  padding: 5px;
+}
+.poster-text .title {
+  font-size: 70px;
+  font-weight: 600;
+}
+.poster-text .docs {
+  font-size: 16px;
+}
+.learn-more-link {
+  padding: 8px 16px;
+  color: white;
+  background-color: #e93a7d;
+  border-radius: 20px;
+}
+
+.card {
+  float: right;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 70px;
+}
+.card .title {
+  text-align: center;
+  color: #1e0e62;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.inputBox {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #b0b0b0;
+  border-radius: 20px;
+}
+.checkbox-div {
+  padding: 16px 0;
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+}
+input.checkbox {
+  width: 16px;
+  height: 16px;
+  padding: 10px;
+}
+.checkbox-div label {
+  margin-left: 5px;
+  color: #15143989;
+}
+input[type="checkbox"] {
+  accent-color: #25dac5;
+}
+.btn {
+  border-color: transparent;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 8px 0;
+  width: 100%;
+  font-weight: 500px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+.signup-btn {
+  background-color: #482be7;
+}
+.signin-btn {
+  background-color: #1da1f2;
+}
+.line {
+  position: relative;
+  height: 2px;
+  width: 100%;
+  margin: 36px 0;
+  background-color: #d4d4d4;
+}
+.line::before {
+  content: "Or";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: #8b8b8b;
+  padding: 0 12px;
+}
+
+.form-link {
+  text-align: center;
+  margin-top: 12px;
+  padding: 12px 0;
+}
+.form-link span,
+.form-link a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #15143989;
+}
+
+.form-link .link {
+  color: #25dac5;
+}
